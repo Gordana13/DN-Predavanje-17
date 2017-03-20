@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} Igra glavno mesto {% endblock %}
+
+{% block naslov %}Ugani glavno mesto! {% endblock %}
+
+{% block vsebina %}
+    <img width=200px src="{{ glavno_mesto.slika}}">
+    <p>Katero je glavno mesto države {{ glavno_mesto.drzava }} ?</p>
+
+    <form method="post" action="/resitev">
+        <input name="mesto">
+        <button type="submit">Preveri</button>
+    </form>
+{% endblock %}

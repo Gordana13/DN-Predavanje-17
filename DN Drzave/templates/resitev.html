@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %} Rešitev {% endblock %}
+
+{% block naslov %} Rešitev {% endblock %}
+
+{% block vsebina %}
+
+{% if rezultat %}
+    <p> Vaš odgovor je pravilen </p>
+{% else %}
+    <p>Vaš odgovor je napačen. Glavno mesto {{ x.drzava }} je {{ x.glavno_mesto }}</p>
+{% endif %}
+
+{% endblock %}

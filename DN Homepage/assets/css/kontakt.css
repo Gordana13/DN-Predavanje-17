@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://images6.alphacoders.com/429/thumb-1920-429155.jpg");
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    font-family: Georgia;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+p {
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    margin-top: 1%;
+}
+
+.topnav a {
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width-right: 30%;
+}

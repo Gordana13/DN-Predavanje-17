@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{% block naslov %} {% endblock %}</title>
+>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>{% block glavni_naslov %} {% endblock %}</h1>
+
+<hr/>
+
+    <div class="topnav" id="myTopnav">
+          <a href="/kontakt" class="{% block kontakt_stil %} {% endblock %}">Kontakt</a>
+          <a href="/blog" class="{% block blog_stil %} {% endblock %}">Blog</a>
+          <a href="/mojiprojekti" class="{% block mojiprojekti_stil %} {% endblock %}">Moji projekti</a>
+          <a href="/omeni" class="{% block omeni_stil %} {% endblock %}">O meni</a>
+          <a href="/" class="{% block domov_stil %} {% endblock %}">Homepage</a>
+    </div>
+
+        <p> {% block vsebina %} {% endblock %}</p>
+    </div>
+</body>
+</html>
